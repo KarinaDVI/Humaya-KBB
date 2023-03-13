@@ -1,0 +1,98 @@
+li{
+    list-style: none;
+}
+footer ul{
+    padding-left: 0rem;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+}
+.banner-img{
+    background-image: url('./IMAGENES/Central/imagenCentral.png');
+    background-size:cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-color:blue;
+    width:100%;
+    height:100vh;
+    overflow:scroll;
+}
+.banner-img-inner{
+    width: 40%;
+    height: 25%;
+    position: absolute;
+    left: 60%;
+    top:5vw;
+}
+.card-tv{
+    display:grid;
+}
+.link-color-lg{
+    color:#7a5b35;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width:425px){
+    .banner-img-inner{
+        overflow: scroll;
+        text-align: center;
+        margin:0 0;
+    }
+    .card-tv{
+        display:none;
+    }
+}
+
+@media screen and (max-width:600px){
+    .banner-img-inner{
+        text-align: center;
+        min-width:100%;
+        height:100%;
+        position:absolute;
+        left: 0;
+        top: 0;
+        }
+    }
+
+@media screen and (max-width:768px){
+    .banner-img-inner{
+        justify-content: center;
+        text-align: center;
+        min-width:100%;
+        height:100%;
+        position:absolute;
+        left: 0;
+        top: 0;
+        }
+    }
+    @media screen and (min-width:1024px){
+        .banner-img-inner{
+            width: 40%;
+            height: 25%;
+            position: absolute;
+            left: 60%;
+            top:20vw;
+            }
+        };
+
+.productos-banner{
+    width:auto;
+    height:10%;
+}
+.prod-black-bg{
+    background-color: rgba(32, 26, 20, 0.333);
+}
+.prod-lg-bg{
+    background-color: #d5ac8c;
+}
+.prod-lg-f{
+    color:#64431f;
+}
+.prod-dk-bg{
+    background-color:#343131
+}
+
+    
+    
+
