@@ -1,12 +1,16 @@
 li{
     list-style: none;
 }
+
 footer ul{
     padding-left: 0rem;
 }
 footer a{
     text-decoration: none;
     color:white;
+}
+.card-margin{
+    margin-top:10vh;
 }
 .banner-img{
     background-image: url('./IMAGENES/Central/imagenCentral.png');
@@ -31,6 +35,10 @@ footer a{
 .link-color-lg{
     color:#7a5b35;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.calidad-p{
+    color:#bca177;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width:425px){
