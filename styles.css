@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(194, 194, 194);
+}
 li{
     list-style: none;
 }
@@ -99,6 +102,10 @@ footer a{
 }
 .prod-dk-bg{
     background-color:#343131
+}
+.img-400{
+    max-width: 900;
+    max-height: 400;
 }
 
     
