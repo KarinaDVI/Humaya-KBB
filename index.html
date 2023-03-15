@@ -33,13 +33,13 @@
                         <a class="nav-link" aria-current="page" href="#">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Productos</a>
+                        <a class="nav-link" aria-current="page" href="#productos">Productos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Locales</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Contacto</a>
+                        <a class="nav-link" aria-current="page" href="#contacto">Contacto</a>
                     </li>
 
                     </ul>
@@ -52,6 +52,7 @@
       <!--Portada-->
       <!--Banner bootstrap-->
       <section>
+        <a id="home"></a>
       <div class="card bg-dark text-white h-100 card-margin">
         <img src="./src/img/banner/imagenCentral.png" 
         class="card-img w-100" alt="Imagen representativa de banner Humaya">
@@ -66,7 +67,7 @@
             importantes de la vida.</p>
           <p class="card-text text-sm-center"></p>
           <div class="row justify-content-center">
-            <div class="col-sm-auto"><a class="btn btn-dark">Conocenos</a></div>
+            <div class="col-sm-auto"><a href="#quienes" class="btn btn-dark">Conocenos</a></div>
           </div>
         </div>
       </div>
@@ -74,23 +75,24 @@
 
     <!--Seccion Calidad-->
     <section>
+      <a id="calidad"></a>
       <div class="row-cols-auto productos-banner prod-dk-bg">
           <h2 class="col-auto text-light prod-dk-bg text-center mb-3 pb-3 pt-3">La mejor calidad para vos</h2>
           <div class="row justify-content-center text-center align-items-center">
             <div class="col-auto justify-content-center p-2">
               <img src="./src/img/icons/organic.png" class="img-fluid h-25" alt="Logo 100% organico">
-              <p class="calidad-p">100% orgánico</p>
+              <p class="calidad-p text-break">100% <br>orgánico</p>
             </div>
             <div class="col-auto justify-content-center p-2">
               <img src="./src/img/icons/gluttenfree.png" class="img-fluid h-25 align" alt="Logo gluten free">
-              <p class="calidad-p">Libre de gluten</p>
+              <p class="calidad-p text-break">Sin <br>Tacc</p>
             </div>
             <div class="col-auto justify-content-center p-2 align-items-center">
               <img src="./src/img/icons/chemicalsfree.png" class="img-fluid h-25" alt="Logo sin aditivos">
-              <p class="calidad-p">Sin conservantes</p>
+              <p class="calidad-p word-wrap">Sin <br>conservantes</p>
             </div>
+            <div><a href="#home" class="link-foot"><h6 class="text-center p-2">Volver a home</h6></a></div>
           </div>
-          <h4 class="col-auto text-light prod-dk-bg text-center mb-0 pb-3 pt-3 prod-dk-bg ">Contáctanos</h4>
           
       </div>
       
@@ -98,7 +100,8 @@
                 
         <!--Seccion productos-->
         <!--Poner un h2 y 3 cards-->
-        <section>
+        <section id="productos" >
+          
             <div class="text-black-50 prod-lg-bg m-0 p-0 border-0 text-center">
                 <h2 class="text-black-50 m-0 p-4 border-0 align-self-center">PRODUCTOS</h2>
             </div>
@@ -122,7 +125,7 @@
                   <div class="col-md-6">
                     <div class="card-body h-100 prod-dk-bg">
                       <h5 class="card-title text-light text-center">DULCE DE LECHE TRADICIONAL</h5>
-                      <p class="card-text text-light ">Elaboración artesanal de principio a fin, con un sabor intanso, receta tradicional.</p>
+                      <p class="card-text text-light ">Elaboración artesanal de principio a fin, con un sabor intenso, receta tradicional.</p>
                       <p class="card-text text-light "><small class="text-muted">Presentacion en frasco de vidrio de  580 gr.</small></p>
                       <div class="col-md-3 col-sm-12 text-center"><a class="btn btn-light">+Info</a>
                     </div>
@@ -148,7 +151,7 @@
                     <div class="col-md-6 order-md-1 ">
                         <div class="card-body h-100 prod-dk-bg">
                           <h5 class="card-title text-light text-center">DULCE DE LECHE SIN AZÚCAR</h5>
-                          <p class="card-text text-light ">Elaboración artesanal para cuidar tu silueta sin renunciar a nda, endulzado naturalmente con stevia</p>
+                          <p class="card-text text-light ">Elaboración artesanal para cuidar tu silueta sin renunciar a nada, endulzado naturalmente con stevia</p>
                           <p class="card-text text-light "><small class="text-muted">Presentacion en fraco de vidrio de 580gr y 280gr.</small></p>
                           <div class="col-md-3 col-sm-12 text-center"><a class="btn btn-light">+Info</a>
                           </div>
@@ -176,7 +179,7 @@
                   <div class="col-md-6">
                     <div class="card-body h-100 prod-dk-bg">
                       <h5 class="card-title text-light text-center">DULCE CHOCONUT</h5>
-                      <p class="card-text text-light ">Elaboración artesanal para el capricho dulce, combinación de dulce de lecham chocolate y pasta de avellanas. Una delicia única.</p>
+                      <p class="card-text text-light ">Elaboración artesanal para el capricho dulce, combinación de dulce de leche, chocolate y pasta de avellanas. Una delicia única.</p>
                       <p class="card-text text-light "><small class="text-muted">Presentación en frasco de vidrio de 280gr.</small></p>
                       <div class="col-md-3 col-sm-12 text-center">
                         <a class="btn btn-light">+Info</a>
@@ -213,22 +216,26 @@
                     </div>
                   </div>
                 </div>
+                <div><a href="#home" class="link-foot"><h6 class="text-center p-2">Volver a home</h6></a></div>
               </div>
         </section>
         
 
         <!--Seccion Quienes somos-->
         <section>
+          <a id="quienes"></a>
           <div class="prod-dk-bg text-light text-center p-4">
-              <h2>Quienes somos</h2>
+              <h2 id="quienes">Quienes somos</h2>
               <p>Empresa nacional de eleboracion de dulces y postres gourmet. Desde sus inicios atiende poniendo especial atencion al detale orientado a la experiencia blabla...</p>
               <p>Actualmente nuestra calidad se orienta a hacer de la experiencia Humaya un momento único y bla,blla..
               <p>Sus propietarios son reconocidos maestros pasteleros y vuelcan su eperiencia en la Elaboración blabla</p>
               <p>Nos destacamos en la feria internacional de sweeties habiendo alcanzado el primer premio blabla  </p>
           </div>
+
+          <!--Clientes-->
           <div class="prod-lg-bg text-black-50 text-center p-4">
-              <h2>CLIENTES</h2>
-              <div class="container-fluid ordenCliente w-50 justify-content-center">Carousel clientes
+              <h2 id="clientes">CLIENTES</h2>
+              <div class="container-fluid ordenCliente w-50 justify-content-center">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -250,13 +257,15 @@
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div>
+                <div><a href="#home" class="link-foot"><h6 class="text-center p-2">Volver a home</h6></a></div>
             </div>
           </div>
       </section>
 
       <!--Contacto-->
       <section>
-          <div class="prod-dk-bg text-light p-4">
+          <a id="contacto"></a>
+          <div class="prod-dk-bg text-light p-4 ">
               <h2 class="text-center">Contacto</h2>
               <div>
                   <img src="" alt="">
@@ -306,10 +315,10 @@
             <li>
               <h5 class="link-color-lg">MENÚ</h5>
             </li>
-            <li><a href="">Home</a></li>
-            <li><a href="">Productos</a></li>
+            <li><a href="home">Home</a></li>
+            <li><a href="productos">Productos</a></li>
             <li><a href="">Locales</a></li>
-            <li><a href="">Contactanos</a></li>
+            <li><a href="contacto">Contactanos</a></li>
           </ul>
         </div>
         <div class="col-sm-12 col-md-2">
