@@ -59,6 +59,9 @@ footer a{
     .card-tv{
         display:none;
     }
+    .carousel-cliente{
+        min-width:100%
+    }
 }
 
 @media screen and (max-width:600px){
@@ -73,6 +76,9 @@ footer a{
         p{
             text-align: center;
         };
+        .carousel-cliente{
+            width:100%
+        }
     }
 
 @media screen and (max-width:768px){
@@ -88,6 +94,9 @@ footer a{
         p{
             text-align: justify;
         }
+        .carousel-cliente{
+            width:100%
+        }
     }
     @media screen and (min-width:1024px){
         .banner-img-inner{
@@ -96,6 +105,9 @@ footer a{
             position: absolute;
             left: 60%;
             top:20vw;
+            }
+            .carousel-cliente{
+                width:80%
             }
         };
 
