@@ -15,6 +15,10 @@ footer a{
 .card-margin{
     margin-top:10vh;
 }
+.card-title{
+    margin-top: 5%;
+}
+
 .banner-img{
     background-image: url('./IMAGENES/Central/imagenCentral.png');
     background-size:cover;
@@ -50,7 +54,7 @@ footer a{
     color:white;
 }
 
-@media screen and (max-width:425px){
+@media screen and (max-width:480px){
     .banner-img-inner{
         overflow: scroll;
         text-align: center;
@@ -66,16 +70,20 @@ footer a{
 
 @media screen and (max-width:600px){
     .banner-img-inner{
+        box-sizing: border-box;
         text-align: center;
         min-width:100%;
         height:100%;
         position:absolute;
         left: 0;
-        top: 0;
+        top: 10;
         }
         p{
             text-align: center;
         };
+        .card-title{
+            margin-top: 10%;
+        }
         .carousel-cliente{
             width:100%
         }
@@ -83,7 +91,6 @@ footer a{
 
 @media screen and (max-width:768px){
     .banner-img-inner{
-        justify-content: center;
         text-align: center;
         min-width:100%;
         height:100%;
